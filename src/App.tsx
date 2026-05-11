@@ -173,7 +173,7 @@ function analyzeSaju({ birthYear, birthMonth, birthDay, birthHour, gender }) {
       health: `뼈와 관절, 그리고 ${ELEMENT_META[weak].organ}의 미네랄 관리에 집중해야 합니다.`,
       nutrients: "미네랄, 콜라겐, 식이섬유",
       message: "가장 깊은 휴식으로 내일의 활력을 리스토레이트하세요.",
-      supplement: "리스토레이트",
+      supplement: "파워칵테일",
     },
   };
 

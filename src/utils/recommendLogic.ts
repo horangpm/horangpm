@@ -32,7 +32,7 @@ export function recommendProducts(saju: SajuResult, healthCheck: HealthCheck): R
       addProduct('PowerCocktail', '종합 영양 공급으로 소화와 대사 기능을 원활하게 지원합니다.');
       break;
     case '금':
-      addProduct('Basics', '필수 비타민과 미네랄 기초를 채워 호흡기 및 면역력 강화에 좋습니다.');
+      addProduct('PowerCocktail', '필수 비타민과 미네랄 기초를 채워 호흡기 및 면역력 강화에 좋습니다.');
       break;
     case '수':
       addProduct('Restorate', '필수 미네랄 보충으로 신장 기능과 체액 순환을 돕습니다.');
@@ -51,7 +51,7 @@ export function recommendProducts(saju: SajuResult, healthCheck: HealthCheck): R
     addProduct('PowerCocktail', '소화가 자주 불편하신가요? 장 건강과 소화 효소 보충을 추천합니다.');
   }
   if (healthCheck.immunity < 60) {
-    addProduct('젤슈츠', '면역력이 저하되어 잔병치레가 걱정됩니다. 항산화 면역 케어가 필요합니다.');
+    addProduct('PowerCocktail', '면역력이 저하되어 잔병치레가 걱정됩니다. 항산화 면역 케어가 필요합니다.');
   }
 
   // 여전히 3개가 안 채워졌다면 점수가 가장 낮은 순서대로 기본 추천
