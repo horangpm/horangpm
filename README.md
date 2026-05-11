@@ -1,16 +1,26 @@
-## Hi there 👋
+# fitline-health
 
-<!--
-**horangpm/horangpm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Apps in Toss 프로젝트입니다.
 
-Here are some ideas to get you started:
+## 시작하기
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+npm run dev
+```
+
+## 배포하기
+
+- 앱인토스 배포 API 키는 [앱인토스 콘솔](https://apps-in-toss.toss.im/) > 워크스페이스 > API 키 > 콘솔 API 키 에서 발급받을 수 있어요.
+
+```bash
+npm run build
+npm run deploy
+```
+
+## 유용한 링크
+
+- [앱인토스 콘솔](https://apps-in-toss.toss.im/)
+- [앱인토스 개발자센터](https://developers-apps-in-toss.toss.im/)
+- [앱인토스 개발자 커뮤니티](https://techchat-apps-in-toss.toss.im/)
+
+AI를 사용하시는 경우 [여기](https://developers-apps-in-toss.toss.im/development/llms.html)를 확인해보세요.
