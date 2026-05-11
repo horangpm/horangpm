@@ -315,7 +315,7 @@ function IntroScreen({ onStart }) {
     <div style={{ padding: "0 20px 32px", fontFamily: "'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" }}>
       <div style={{ textAlign: "center", padding: "60px 0 32px" }}>
         <div style={{ fontSize: 56, marginBottom: 16, filter: "drop-shadow(0 0 12px var(--primary-gold))" }}>🪐</div>
-        <h1 style={{ fontSize: 26, fontWeight: 700, color: "var(--primary-gold)", margin: "0 0 12px", lineHeight: 1.3, letterSpacing: "-0.02em" }}>FitLine 건강사주 코칭</h1>
+        <h1 style={{ fontSize: 26, fontWeight: 700, color: "var(--primary-gold)", margin: "0 0 12px", lineHeight: 1.3, letterSpacing: "-0.02em" }}>Fitline 사주건강앱</h1>
         <p style={{ fontSize: 14, color: "var(--text-dim)", margin: 0, lineHeight: 1.6 }}>당신의 운명에 숨겨진 건강의 비밀을 찾으세요</p>
       </div>
 
