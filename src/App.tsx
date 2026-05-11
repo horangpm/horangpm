@@ -38,7 +38,7 @@ const ELEMENT_META = {
 const PM_CATALOG = {
   restorate:  { name: "리스토레이트(Restorate)",                    desc: "마그네슘·미네랄·산-염기 균형, 야간 회복 및 수면의 질 개선",           url: "https://horangpm.linkstory.co.kr" },
   activize:   { name: "액티바이즈(Activize Oxyplus)",               desc: "비타민B군 공급으로 세포 에너지 생성, 산소 활용 능력·집중력 향상",     url: "https://horangpm.linkstory.co.kr" },
-  cocktail:   { name: "파워칵테일(PowerCocktail)",                   desc: "100가지 이상 식물성 영양소, 소화효소 활성·대사 지원·종합 항산화",     url: "https://horangpm.linkstory.co.kr" },
+  cocktail:   { name: "파워칵테일(PowerCocktail)",                   desc: "53종 식물성 영양소, 소화효소 활성·대사 지원·종합 항산화",             url: "https://horangpm.linkstory.co.kr" },
   omega3:     { name: "오메가3(Omega-3)",                            desc: "EPA·DHA 고농도 공급, 심혈관·뇌 건강 지원, 혈행 개선 및 염증 완화",   url: "https://horangpm.linkstory.co.kr" },
   q10:        { name: "Q10 플러스(Q10 Plus)",                        desc: "코엔자임Q10·항산화 복합체, 심장 에너지 대사 지원 및 노화 억제",      url: "https://horangpm.linkstory.co.kr" },
   proshape:   { name: "프로쉐이프 올인원(ProShape All-in-One)",       desc: "고품질 단백질·식이섬유, 근육 유지·체중 관리·포만감 지속",          url: "https://horangpm.linkstory.co.kr" },
@@ -49,7 +49,7 @@ const FITLINE_PRODUCTS = {
   목: { ...PM_CATALOG.restorate, desc: "간·담낭 해독 부담 완화, 마그네슘으로 근육·신경 이완" },
   화: { ...PM_CATALOG.omega3,    desc: "EPA·DHA로 심장·혈관 건강 직접 지원, 혈행 개선" },
   토: { ...PM_CATALOG.cocktail,  desc: "식물성 영양소로 비장·위 소화력 강화, 대사 균형" },
-  금: { ...PM_CATALOG.cocktail,  desc: "100가지 식물영양소로 폐·대장 면역력·호흡기 강화" },
+  금: { ...PM_CATALOG.cocktail,  desc: "53종 식물영양소로 폐·대장 면역력·호흡기 강화" },
   수: { ...PM_CATALOG.restorate, desc: "전해질·미네랄 보충으로 신장·방광 기능 지원" },
 };
 
@@ -57,7 +57,7 @@ const FITLINE_PRODUCTS = {
 const SECONDARY_PRODUCTS = {
   피로: { ...PM_CATALOG.activize,  desc: "비타민B군으로 세포 에너지 대사 활성화, 만성 피로 개선" },
   수면: { ...PM_CATALOG.restorate, desc: "마그네슘·미네랄 보충으로 신경 이완 및 수면의 질 향상" },
-  소화: { ...PM_CATALOG.cocktail,  desc: "100가지 식물성 영양소로 소화효소 활성 및 장 환경 개선" },
+  소화: { ...PM_CATALOG.cocktail,  desc: "53종 식물성 영양소로 소화효소 활성 및 장 환경 개선" },
   면역: { ...PM_CATALOG.cocktail,  desc: "식물성 영양소·항산화 성분으로 면역 세포 기능 전반 강화" },
   체력: { ...PM_CATALOG.q10,       desc: "코엔자임Q10으로 세포 에너지 생산 효율 향상, 지구력 증대" },
 };
